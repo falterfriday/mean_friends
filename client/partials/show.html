@@ -1,0 +1,6 @@
+<form class="" action="index.html" method="post">
+  First Name: <input type="text" value="{{user.first_name}}"><br>
+  Last Name: <input type="text" value="{{user.last_name}}"><br>
+  Birthday: <input type="text" value="{{user.birthdate | date: 'MM-dd-yyyy'}}"><br>
+  User Added: <input type="text" value="{{user.createdAt | date: 'MM-dd-yyyy'}}"><br>
+</form>
