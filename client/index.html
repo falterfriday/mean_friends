@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+	<meta charset="utf-8">
+	<title>Awesome Friends</title>
+	<script src="angular/angular.js" charset="utf-8"></script>
+	<script src="angular-route/angular-route.js" charset="utf-8"></script>
+
+	<!-- app.js comes before controllers and factories -->
+	<script src="assets/app.js" charset="utf-8"></script>
+	<!-- app.js comes before controllers and factories -->
+
+	<script src="assets/factories/friendsFactory.js" charset="utf-8"></script>
+	<script src="assets/controllers/newController.js" charset="utf-8"></script>
+	<script src="assets/controllers/editController.js" charset="utf-8"></script>
+	<script src="assets/controllers/indexController.js" charset="utf-8"></script>
+	<script src="assets/controllers/showController.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="./style.css" media="screen" charset="utf-8">
+</head>
+<body>
+	<h2>Login and Registration</h2>
+	<div ng-view></div>
+</body>
+</html>
